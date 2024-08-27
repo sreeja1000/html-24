@@ -1,0 +1,53 @@
+.gif{
+    height: 120px;
+    width: 720px;
+    padding-top: 50px;
+  }
+  .flower{
+    height: 120px;
+    width: 120px;
+    padding-top: 50px;
+  }
+  .diz{
+     text-align: center;
+  }
+  
+  body{
+    background: #FFE0F9;
+  }
+  p{
+    color: #F77B5B;;
+    text-align: center;
+    font-family: Sreejan;
+    size: 20px;
+  }
+  @font-face{
+    font-family: "Sreejan";
+    src: url("sreejan.ttf");
+  }
+  button{
+    background: #F77B5B;
+    color: #FFE0F9;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-family: Sreejan;
+    font-size: 20px;
+  }
+  .no:hover{
+    transform: translateY(100px);
+  }
+  .yes:hover{
+    background: #E75430;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-family: Sreejan;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px #F77B5B;
+  }
+  
+  
